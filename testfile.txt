@@ -1,1 +1,1 @@
-Just a test file creating this from the GUI
+Committing this from the Terminal, testing GITHUB Integration with VS Code
