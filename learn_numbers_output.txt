@@ -1,0 +1,5 @@
+Addition 5+5  = 10
+Subtraction 5-5 = 0
+Multiplication 5*5 = 25
+Division 100/5 = 20
+Exponent 7.59375
