@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func stringsMain() {
 
 	fmt.Println("Hello There this is printed using single line string literal which uses \"\" \n ")
 	fmt.Println(`Hello There this is printed using raw string line string
