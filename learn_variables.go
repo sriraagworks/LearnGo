@@ -12,7 +12,7 @@ func learnvariablesMain() {
 	z = "Pre Declared Variable" /*assigning  values  for predeclared variables */
 
 	/*Need to  read  up  on blank identifiers in go
-	Go will not allow us to run a  program which has declared variables which  remain unused
+	Go will not allow us to run a  program which has declared variables which  remain unused, will create another program for the same
 	*/
 
 	fmt.Println("Student-ID::", id)
