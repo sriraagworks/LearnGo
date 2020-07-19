@@ -10,6 +10,8 @@ func learnvariablesMain() {
 	name := "Sriraag"           /*shorthand variable declaration*/
 	var x, y = "1234", false    /*declaring  multiple variables*/
 	z = "Pre Declared Variable" /*assigning  values  for predeclared variables */
+	
+	
 	/*Need to  read  up  on blank identifiers in go
 	Go will not allow us to run a  program which has declared variables which  remain unused
 	*/
