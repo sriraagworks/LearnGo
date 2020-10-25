@@ -42,16 +42,3 @@ fmt.Printf("Address\t\t\t::%s\n",address)
 ///fmt.Printf("Age\t\t\t::%d\nGender\t\t\t::%s",age,gender)
 fmt.Printf("Age\t\t\t::%d",age)
 }
-
-
-
-
-// Output
-//hello world
-//ID			::10
-//Name			::sriraag 
-//Random_Numbers 		::1 2 3
-//Address			::Bangalore, Karnataka India
-//Age			::29
-
-
