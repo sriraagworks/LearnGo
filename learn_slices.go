@@ -54,3 +54,15 @@ fmt.Println("Length of Array",len(action))
 fmt.Println("Capacity of Array",cap(action))
 
 }
+
+
+/*
+[luffy zoro]
+[luffy zoro] [1 2 3 4 5 6 7]
+Elements in Array [add update]
+Length of Array 2
+Capacity of Array 5
+Elements in Array [add update delete delete delete delete]
+Length of Array 6
+Capacity of Array 10
+*/
