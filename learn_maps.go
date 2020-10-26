@@ -20,3 +20,6 @@ delete(emp_details,4) //Deletes a Value from emp_details map
 fmt.Println(emp_details)
 
 }
+
+//map[1:luffy 2:goku 3:uarmeshi 4:xyz]
+///map[1:luffy 2:goku 3:uarmeshi]
