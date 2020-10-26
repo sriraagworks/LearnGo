@@ -1,7 +1,15 @@
 package main
 
 import "fmt"
+/*
+if conditional {
 
+}else if conditional{
+
+}else {
+
+}
+*/
 
 func main(){
 
@@ -33,14 +41,9 @@ fmt.Println("Value is greater than 30::",var1)
 
 }
 
-/*
 
-
-if conditional {
-
-}else if conditional{
-
-}else {
-
-}
+/* Output
+map[1:apple 2:apple]
+entered value is a fruit:: apple
+Value is less than 30:: 24
 */
