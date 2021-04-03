@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	//**********************************ARRAY EXAMPLES END HERE *******************************************
+	//**********************************ARRAY EXAMPLES START HERE *******************************************
 
 	fmt.Println("Array Declarations Begin Here")
 
