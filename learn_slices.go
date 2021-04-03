@@ -1,30 +1,68 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func main() {
+func main(){
 
-	//Normal Array Declaration
-	id := [3]int{1, 2, 3}
-	fmt.Println("Array Declaration", id)
+////Declaring Slices in Go
 
-	//1st Type of Slice Declaration
 
-	//String Slice
-	fruits := []string{}
-	fruits = append(fruits, "apple", "mango", "banana")
-	fmt.Println("String Slice =>", fruits)
+// Declaring a variable [var name string="sriraag" OR name:="sriraag" ]
+// Declaring an Array [var names=[2] string {"luffy","zoro"} OR names:=[2]string {"luffy","zoro"} ]
 
-	//Integer Slice
-	year := []int{}
-	year = append(year, 1992, 1993, 1994, 2007, 2017, 2018, 2020)
+// +++++++++++ Declaring a Slice in GO
 
-	fmt.Println("Integer Slice =>", year)
 
-	//Creating a slice but limiting it with a max value beyond which the array wont grow
-	ships := make([]string, 1)
-	ships[0] = "a"
-	fmt.Println("Using Make to set max limit for a slice declaration=>", ships)
+// Longer Way
+var names=[]string {};
+names=append(names,"luffy","zoro");  /// append (what slice to append to,values)
+
+fmt.Println(names)
+
+
+// Short hand
+
+days:=[]int {};
+days=append(days,1,2,3,4,5,6,7)
+
+fmt.Println(names,days);
+
+
+///////++++++++++ Declaring a Slice using make function
+
+action:=make([]string,2,5)   //// make is an built in function make(type of slice,len,capacity)
+
+action[0]="add"
+action[1]="update"
+
+fmt.Println("Elements in Array",action)
+fmt.Println("Length of Array",len(action))
+fmt.Println("Capacity of Array",cap(action))
+
+/// action[2]="delete".  uncommenting this gives an index out of range error, since length is 2 [panic: runtime error: index out of range [2] with length 2]
+
+///Trying to append to the slice
+
+action=append(action,"delete")
+action=append(action,"delete")
+action=append(action,"delete") 
+action=append(action,"delete")  /// Adding the 6th element in slice of size 5 and it automatically doubles the capacity of the slice 
+
+
+fmt.Println("Elements in Array",action)
+fmt.Println("Length of Array",len(action))
+fmt.Println("Capacity of Array",cap(action))
+
 }
+
+
+/*
+[luffy zoro]
+[luffy zoro] [1 2 3 4 5 6 7]
+Elements in Array [add update]
+Length of Array 2
+Capacity of Array 5
+Elements in Array [add update delete delete delete delete]
+Length of Array 6
+Capacity of Array 10
+*/
